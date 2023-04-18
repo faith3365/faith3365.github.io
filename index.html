@@ -1,1 +1,57 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Project</title>
+	<link rel="stylesheet" href="styles.css">
+	<!--Faith Campos-->
+	<!--CSCE 102-->
+	<!--Section 013-->
+	<!--01/18/2023-->
+</head>
+
+<body>
+	<div id= "content">
+	<header>
+		<h1>Home</h1>
+	</header>
+	<nav id="main-nav">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main>
+	<div class="container">
+		<img id="horizontal"src="images/milohorizontal.jpeg" alt="Orange cat laying down sleeping">
+	</div>
+	<section>
+	<h2>About Me</h2>
+		<p>Hey, My name is Faith and I am a sophmore biology major. I am a little shy when you first meet me, but as I get more comfortable I grow out of my shell. I enjoy hanging out with my friends in my free time and also going out on the weekend. I have a one year old cat named, milo, who is basically my child, however he is very energetic and enjoys biting and scratching more than anything. I grew up in a small town in Massachusetts with my parents and two siblings and my childhood cat. </p>
+		<p id="talk" class="hide">When choosing where to go to school I knew I wanted to go far to have the feeling of truly living on my own, and also I was craving warmer weather year-roud as winter in Massachusetts is so long and shoveling snow is not enjoyable at all. I began to settle on South Carolina because of the marching band, they gave a large scholarship that made the price a lot more realistic. Coming to South Carolina I joined the marching band and made a ton of friends. Moving so far away, this school gave me a home away from home which is truly what I wanted.</p>
+		<a href="#" onclick="seeMore()" id="link">See More...</a>
+	</section>
+	<div class="milos">
+		<img id="milo" src="images/milocry.jpeg" onclick="changeSlide()" data-num="1">
+		<img src="images/milolick.jpeg" class="hidden" data-num="2">
+		<img src="images/miloscary.jpeg" class="hidden" data-num="3">
+		<img src="images/milotree.jpeg" class="hidden" data-num="4">
+		<img src="images/miloyawn.jpeg" class="hidden" data-num="5">
+	</div>
+	<p><em>This is a slideshow of my cat Milo, he <br>is a large part of my life so I decided<br> he needed to be showed off</em></p>
+	<section>
+	<h2>My Future Career Plans</h2>
+		<p>As previosuly mentioned I am currently a biology major with a minor in foresic science. Originally I came to college wanted to pursue medical school, however as I began college I realized I could not see myself continuing on with school for the amount of time medical school needs. From there I had to figure out what other career path was interesting to me. First, I picked up a minor of criminal justice knowing I wanted to do somthing with solving criminal cases. However, as I continued to figure out what I wanted to do I realized that I wanted to contiue working in a lab, so I switched my minor to forensic science which focuses more on the lab part of this career.</p>
+		<p id="talks" class="hide">So, with this major and minor I have settles on a career in forensic biology. Forensic biology. specifically in a crime lab, is a career where you work in a lab analyzing things like DNA in order to help solve crimes. Helping to solve crimes is appealing to me as it gives me a purpose that I am helping people by identifying the identity of criminals. </p>
+		<a href="#" onclick="showMore()" id="links">See More...</a>
+	</section>
+	<h4>What I learned from Computer Science</h4>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/oDEiZa7_8Ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</main>
+<footer>
+		<p>&copy; Faith</p>
+		<script src="script.js"> </script>
+</footer>
+</body>
+</hmtl>

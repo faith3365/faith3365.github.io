@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Project</title>
+	<link rel="stylesheet" href="styles.css">
+	<!--Faith Campos-->
+	<!--CSCE 102-->
+	<!--Section 013-->
+	<!--01/18/2023-->
+</head>
+
+<body>
+	<div id= "content">
+		<header>
+			<h1>Quiz</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main>
+		<div id="container">
+		<section class="column">
+		<h2>Website Development Quiz</h2>
+		<p>
+			<label for="txt-q1">1. What does CSS stand for?</label>
+			<br>
+			<select id="txt-q1">
+				<option id="wrong">Computer Self Service</option>
+				<option id="correct">Cascading Style Sheet</option>
+				<option id="wrong">Character Style Solution</option>
+				<option id="wrong">Cascading Service Sheet</option>
+			</select>
+		</p>
+		<p>
+			<label for="txt-q2">2. What puncutation should be at the end of line in Javascript?</label>
+			<br>
+			<select id="txt-q2">
+				<option id="wrong">period</option>
+				<option id="wrong">colon</option>
+				<option id="wrong">comma</option>
+				<option id="correct">semicolon</option>
+			</select>
+		</p>
+		<p>
+			<label for="txt-q3">3. How to hide text in CSS you don't want to be shown?</label>
+			<br>
+			<select id="txt-q3">
+				<option id="wrong">display:hidden;</option>
+				<option id="wrong">show:none;</option>
+				<option id="correct">display:none;</option>
+				<option id="wrong">show:hidden;</option>
+			</select>
+		</p>
+		<p>
+			<label for="txt-q4">4. What does p stand for in HTML?</label>
+			<br>
+			<select id="txt-q4">
+				<option id="correct">paragraph</option>
+				<option id="wrong">penny</option>
+				<option id="wrong">porsche</option>
+				<option id="wrong">parentheses</option>
+			</select>
+		</p>
+		<button onclick="showScore()">Show Score</button>
+		</section>
+		<section class="column">
+		<div id="results" class="hidden">
+		<h2>Quiz Results</h2>
+		
+		</div>
+		</section>
+		</div>
+		</main>
+		<script src="script.js"> </script>
+		<footer>
+			<p>&copy; Faith</p>
+		</footer>
+</body>
+</hmtl>
